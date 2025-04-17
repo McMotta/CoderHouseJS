@@ -1,0 +1,44 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Alimentos",
+        "color": "#e74c3c"
+      },
+      {
+        "id": 2,
+        "nombre": "Transporte",
+        "color": "#3498db"
+      },
+      {
+        "id": 3,
+        "nombre": "Vivienda",
+        "color": "#2ecc71"
+      },
+      {
+        "id": 4,
+        "nombre": "Entretenimiento",
+        "color": "#f39c12"
+      },
+      {
+        "id": 5,
+        "nombre": "Salud",
+        "color": "#9b59b6"
+      },
+      {
+        "id": 6,
+        "nombre": "Ropa",
+        "color": "#1abc9c"
+      },
+      {
+        "id": 7,
+        "nombre": "Educación",
+        "color": "#34495e"
+      },
+      {
+        "id": 8,
+        "nombre": "Otros",
+        "color": "#95a5a6"
+      }
+    ]
+  }

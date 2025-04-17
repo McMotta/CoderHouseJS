@@ -1,0 +1,168 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Formulario */
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.boton {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-primario {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.boton-secundario {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Resumen */
+.total {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.categoria-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Lista de gastos */
+.filtro {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.filtro label {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.filtro select {
+    width: auto;
+}
+
+.gasto {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gasto-info {
+    flex-grow: 1;
+}
+
+.gasto-concepto {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.gasto-detalle {
+    color: #666;
+    font-size: 14px;
+}
+
+.gasto-monto {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e74c3c;
+    margin-right: 15px;
+}
+
+.gasto-acciones {
+    display: flex;
+}
+
+#mensajeNoGastos {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
+
+/* Colores por categoría */
+.categoria-alimentos { border-left: 4px solid #e74c3c; }
+.categoria-transporte { border-left: 4px solid #3498db; }
+.categoria-vivienda { border-left: 4px solid #2ecc71; }
+.categoria-entretenimiento { border-left: 4px solid #f39c12; }
+.categoria-salud { border-left: 4px solid #9b59b6; }
+.categoria-ropa { border-left: 4px solid #1abc9c; }
+.categoria-educacion { border-left: 4px solid #34495e; }
+.categoria-otros { border-left: 4px solid #95a5a6; }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #666;
+}
